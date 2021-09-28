@@ -6,6 +6,7 @@ A basic Vue front-end for consuming data from [lahman-api](https://github.com/js
 ### Features
 - Player search with custom-implemented autocomplete (see [Search.vue](https://github.com/jstringer/lahman-client/blob/main/src/components/Search.vue))
 - Player detail pages featuring all player statistics and biographical info.
+- [Axios](https://axios-http.com/docs/intro) for making API requests.
 - Uses [Vue Router](https://router.vuejs.org/) for SPA functionality.
 
 ### Project setup
