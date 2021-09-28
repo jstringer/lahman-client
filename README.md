@@ -1,13 +1,16 @@
-# client
+# Lahman Client
 
-## Project setup
+## About
+A basic Vue front-end for consuming data from [lahman-api](https://github.com/jstringer/lahman-api).
+
+### Features
+- Player search with custom-implemented autocomplete (see [Search.vue](https://github.com/jstringer/lahman-client/blob/main/src/components/Search.vue))
+- Player detail pages featuring all player statistics and biographical info.
+- Uses [Vue Router](https://router.vuejs.org/) for SPA functionality.
+
+### Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
 ```
 
 ### Compiles and minifies for production
